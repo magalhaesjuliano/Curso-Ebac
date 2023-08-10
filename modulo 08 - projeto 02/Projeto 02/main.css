@@ -1,0 +1,66 @@
+@charset "UTF-8";
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
+main {
+  padding: 10px;
+  background-color: white;
+  width: 800px;
+  height: 650px;
+  margin: auto;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px #4e3d39c9;
+
+}
+
+body{
+  background-image: linear-gradient( 31deg,  #D6C4BA, #BFAF9B, #8E7068);
+  color: #50403b;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 16px;
+  text-shadow: 1px 1px 2px #7e7876c9;
+  color: #1C1C26;
+}
+
+label {
+  margin-right: 3px;
+  font-size: 18px;
+  font-weight: bold;
+  
+}
+
+input {
+  width:200px;
+  margin-right: 8px;
+  border-radius: 5px;
+  height: 25px;
+  font-size: 18px;
+}
+
+.cadastro {
+  margin-top: 25px;
+  margin-left: 35px;
+}
+
+table {
+  margin-top: 10px;
+  margin: auto;
+}
+
+button{
+  background-color: #13131a;
+  color: aliceblue;
+  width: 150px;
+  height: 25px;
+  cursor: pointer;
+  border: 0;
+  border-radius: 5px;
+}
+
+button:hover{
+  background-color: #8484b7;
+}
